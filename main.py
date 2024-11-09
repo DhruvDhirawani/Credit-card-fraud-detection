@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df =pd.read_csv("G:\Data Science Projects\Credit card fraud detection\creditcard.csv.zip")
+df =pd.read_csv("G:\resume Data science\Credit-card-fraud-detection\creditcard.csv.zip")
 df.describe()
 
 df.isnull().sum()
